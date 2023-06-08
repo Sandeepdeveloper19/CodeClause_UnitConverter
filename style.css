@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    height:100vh;
+    display: flex;
+    /* background-image:  */
+      /* linear-gradient(rgb(199, 250, 59), rgb(228, 5, 24)); */
+      background: url('/@codeclause/realistic-summer-background_52683-62823.avif') no-repeat center/cover;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.container h1{
+    color: rgb(97, 34, 148);
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+
+}
+.converter-row{
+     display: flex; 
+    width: 40%;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius: 10px;
+    padding: 50px 20px;
+    margin:10px auto;
+    
+}
+.converter-row:hover{
+    color: gold;
+    background: rgb(17, 17, 17);
+    box-shadow: 2px 4px;
+
+    
+
+}
+.col {
+     flex-basis: 32%; 
+    text-align: center;
+}
+
+.col label{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.col input{
+    width:150px;
+    height:30px;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+}
+#last{
+    text-shadow: 2px;
+
+}    
